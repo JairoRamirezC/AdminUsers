@@ -1,0 +1,29 @@
+.link {
+  margin: 20px 0;
+}
+
+.btn_list {
+  background-color: rgb(86, 86, 255);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.6s;
+  &:hover {
+    background-color: white;
+    color: rgb(86, 86, 255);
+    transition: 0.6s;
+    border: 1px solid rgb(86, 86, 255);
+  }
+}
+
+.badge__section {
+  display: flex;
+  .content-left {
+    width: 50%;
+  }
+  .content-right {
+    width: 50%;
+    text-align: center;
+  }
+}

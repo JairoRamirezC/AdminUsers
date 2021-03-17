@@ -1,8 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 // Para usar sass en react se debe correr el siguiente comando:
 // npm install -S node-sass
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  size: 62.5%;
+}
+
+$color_nav: #253f4e;
+$color_twitter: #1da1f2;
+$color_github: #161b22;
+
+@import "./Components/nav";
+@import "./Pages/badge";
+@import "./Components/form";
+@import "./Components/content";

@@ -9,6 +9,7 @@ export default function App(){
             <Switch>
                 <Route exact path='/Badge' component={Badge}/>
                 <Route exact path='/Badge/list' component={List}/>
+                {/* <Route component={Error}/> */}
             </Switch>
         </BrowserRouter>
     )
