@@ -11,6 +11,7 @@ The Icons of the project were downloaded at the web page fortawesome (https://ww
 We need to import the next:
 
 [import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";]
+
 [import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";]
 
 In this case, "faGreaterThan" means the icon we need to show to the user
