@@ -53,12 +53,12 @@ The Icons of the project were downloaded at the web page fortawesome (https://ww
 
 [npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons]
 
-### Use Icons on components
+### `Use Icons on components`
 
 We need to import the next:
 
-[import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";]
+## import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-[import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";]
+## import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 In this case, "faGreaterThan" means the icon we need to show to the user
