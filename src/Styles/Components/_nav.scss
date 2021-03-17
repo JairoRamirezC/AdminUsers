@@ -1,0 +1,21 @@
+.navBar {
+  color: white;
+  background-color: $color_nav;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  .navBar__profile {
+    display: flex;
+    height: fit-content;
+    width: 220px;
+    justify-content: space-between;
+  }
+  .avatar {
+    border-radius: 50%;
+  }
+}
+
+.img_logo {
+  height: 100px;
+  width: 200px;
+}

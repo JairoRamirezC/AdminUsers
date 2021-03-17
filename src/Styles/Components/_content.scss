@@ -1,0 +1,54 @@
+.content__section {
+  color: $color_nav;
+  border: 2px solid $color_nav;
+  border-radius: 10px;
+  margin-right: 20px;
+  h1 {
+    font-size: 50px;
+  }
+  &-desc {
+    background-color: #d8d8d8bb;
+    p {
+      margin: 40px 0;
+      font-size: 2rem;
+    }
+    .twitter {
+      color: $color_twitter;
+      margin: 40px 0;
+      font-size: 2rem;
+      margin-right: 20px;
+    }
+    .icon-twitter {
+      color: $color_twitter;
+      font-size: 2rem;
+    }
+    .github {
+      color: $color_github;
+      margin: 40px 0;
+      font-size: 2rem;
+    }
+    .icon-github {
+      color: $color_github;
+      font-size: 2rem;
+    }
+  }
+  button {
+    font-size: 2rem;
+    // color: #00d8ff;
+    // background-color: $color_nav;
+    color: white;
+    background-color: #00d8ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin: 20px 0;
+    &:hover {
+      transition: 0.6s;
+      background-color: white;
+      color: #00d8ff;
+      border: 1px solid #00d8ff;
+    }
+  }
+}
