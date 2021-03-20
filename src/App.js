@@ -2,25 +2,17 @@ import React from 'react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Badge from './Pages/Badge'
 import List from './Pages/List'
-import Context from './Context/Context'
+import {DatosContext} from './Context/Context'
 
 export default function App(){
     return(
         <BrowserRouter>
             <Switch>
-                <Context.Provider value={{
-                    id: '',
-                    material: 'example',
-                    cantidad: 0,
-                    medida: '',
-                    desc: '',
-                    estado: '',
-                    fecha: ''
-                }}>
+                <DatosContext>
                     <Route exact path='/Badge' component={Badge}/>
                     <Route exact path='/Badge/list' component={List}/>
                     {/* <Route component={Error}/> */}
-                </Context.Provider>
+                </DatosContext>
             </Switch>
         </BrowserRouter>
     )
