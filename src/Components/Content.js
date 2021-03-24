@@ -1,17 +1,12 @@
-import React, {useState} from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import React from 'react'
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faGithub } from "@fortawesome/free-brands-svg-icons"
+// import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 
+export default function Content({state, handleSend}){
 
-export default function Content({state}){
-    const [data, setData] = useState({})
-
-    const handleClick = () => {
-        console.log('Se guarda la info')
-    }
     return(
-        <div className='content__section'>
+        <form className='content__section' onSubmit={handleSend}>
             <h1>{state.material}</h1>
             <h1>{state.medida}</h1>
             <div className='content__section-desc'>
@@ -22,7 +17,7 @@ export default function Content({state}){
                 <span className='github'>{state.fecha}</span>
             </div>
             <p className='github'>{state.cantidad}</p>
-            <button onClick={handleClick}>Guardar</button>
-        </div>
+            <button type='submit'>Solicitar</button>
+        </form>
     )
 }

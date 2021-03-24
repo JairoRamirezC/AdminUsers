@@ -3,9 +3,9 @@
         "id": 1,
         "material": "material",
         "cantidad": 100,
-        "unidadmedida": "unidad",
-        "descripcion": "description",
-        "Estado": "estado",
+        "medida": "unidad",
+        "desc": "description",
+        "estado": "estado",
         "fecha": "20-20-2021"
     }
 ]
